@@ -1,0 +1,9 @@
+﻿@model List<string>
+@{Layout = null;}
+
+<p>Converting done.(@Model.Count)</p>
+@foreach (string item in Model)
+{
+    <p>@item</p>
+}
+
